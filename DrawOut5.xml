@@ -138,6 +138,72 @@
                                                                 <next>
                                                                   <block type="oled_linerect" id="89">
                                                                     <field name="OBJECT">RECT</field>
+                                                                    <next>
+                                                                      <block type="oled_setcursor" id="90" inline="true">
+                                                                        <value name="STARTX">
+                                                                          <block type="math_number" id="91">
+                                                                            <field name="NUM">60</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="STARTY">
+                                                                          <block type="math_number" id="92">
+                                                                            <field name="NUM">20</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="oled_setend" id="93" inline="true">
+                                                                            <value name="ENDX">
+                                                                              <block type="math_number" id="94">
+                                                                                <field name="NUM">79</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ENDY">
+                                                                              <block type="math_number" id="95">
+                                                                                <field name="NUM">39</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="oled_linerect" id="96">
+                                                                                <field name="OBJECT">RECT</field>
+                                                                                <next>
+                                                                                  <block type="oled_setcursor" id="97" inline="true">
+                                                                                    <value name="STARTX">
+                                                                                      <block type="math_number" id="98">
+                                                                                        <field name="NUM">100</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="STARTY">
+                                                                                      <block type="math_number" id="99">
+                                                                                        <field name="NUM">20</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="oled_setend" id="100" inline="true">
+                                                                                        <value name="ENDX">
+                                                                                          <block type="math_number" id="101">
+                                                                                            <field name="NUM">120</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="ENDY">
+                                                                                          <block type="math_number" id="102">
+                                                                                            <field name="NUM">39</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="oled_linerect" id="103">
+                                                                                            <field name="OBJECT">RECT</field>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
                                                                   </block>
                                                                 </next>
                                                               </block>
