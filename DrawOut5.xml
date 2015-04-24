@@ -111,6 +111,39 @@
                                                     <next>
                                                       <block type="oled_linerect" id="82">
                                                         <field name="OBJECT">RECT</field>
+                                                        <next>
+                                                          <block type="oled_setcursor" id="83" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="84">
+                                                                <field name="NUM">20</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="85">
+                                                                <field name="NUM">20</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_setend" id="86" inline="true">
+                                                                <value name="ENDX">
+                                                                  <block type="math_number" id="87">
+                                                                    <field name="NUM">39</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ENDY">
+                                                                  <block type="math_number" id="88">
+                                                                    <field name="NUM">39</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="oled_linerect" id="89">
+                                                                    <field name="OBJECT">RECT</field>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
